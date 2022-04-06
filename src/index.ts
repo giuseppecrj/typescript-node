@@ -16,11 +16,6 @@ export interface EncryptedKeyInfo {
   iv: string;
 }
 
-export interface Signature {
-  sig: string;
-  messageHash: string;
-}
-
 export interface DecryptedWallet {
   ethereumAddress: string;
   privateKey: string;
