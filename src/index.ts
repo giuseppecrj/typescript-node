@@ -2,7 +2,6 @@ import "dotenv/config";
 
 import { validateEnv } from "./utils";
 import { DiscordClient } from "./client";
-import interactionCreate from "./listeners/onInteraction";
 import onReady from "./listeners/onReady";
 import onInteraction from "./listeners/onInteraction";
 

@@ -1,4 +1,4 @@
-import { Command } from "./command.interface";
 import { Ping } from "./ping";
+import { Command } from "../interfaces/command";
 
 export const Commands: Command[] = [Ping];

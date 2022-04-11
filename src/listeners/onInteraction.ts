@@ -1,4 +1,4 @@
-import { BaseCommandInteraction, Interaction } from "discord.js";
+import { Interaction } from "discord.js";
 import { Commands } from "../commands";
 
 export default async (interaction: Interaction) => {
